@@ -1,0 +1,9 @@
+Tu travailles uniquement dans le dossier frontend/ du projet OpenSpecomatix. Lis d'abord en entier docs/prd-kanban-v1.md à la racine du repo — il contient les 30 user stories, le contrat de l'API REST, les décisions de thème/UI et le périmètre exclu.
+
+Implémente le frontend (Vite + React) en te basant STRICTEMENT sur le contrat API documenté dans le PRD. Le backend est développé en parallèle par un autre agent et ne tournera probablement pas encore pendant que tu codes — code contre le contrat documenté (formats de requêtes/réponses), pas contre un serveur réel en marche.
+
+Respecte les décisions de thème du PRD.
+
+Ne touche à aucun fichier hors de frontend/ (pas de .gitignore, pas de docker-compose.yml, pas de README racine — géré ailleurs). Committe régulièrement mais ne push pas et ne tente pas de fusionner avec le backend.
+
+Quand les stories frontend du PRD sont faites, arrête-toi et résume ce qui est fait / pas fait.

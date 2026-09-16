@@ -1,0 +1,9 @@
+Tu travailles uniquement dans le dossier backend/ du projet OpenSpecomatix. Lis d'abord en entier docs/prd-kanban-v1.md à la racine du repo — il contient les 30 user stories, le modèle Card, le contrat de l'API REST, les décisions de test (seam HTTP via TestClient + SQLite de test) et le périmètre exclu.
+
+Implémente le backend (FastAPI + SQLite) en respectant STRICTEMENT le contrat API décrit dans le PRD : un autre agent construit le frontend en parallèle contre ce même contrat sans attendre que ton implémentation tourne. Toute déviation du contrat casse l'intégration finale.
+
+Écris les tests tels que décrits dans le PRD (TestClient + base SQLite de test).
+
+Ne touche à aucun fichier hors de backend/ (pas de .gitignore, pas de docker-compose.yml, pas de README racine — géré ailleurs). Committe régulièrement mais ne push pas et ne tente pas de fusionner avec le frontend.
+
+Quand les stories backend du PRD sont faites et que les tests passent, arrête-toi et résume ce qui est fait / pas fait plutôt que d'improviser au-delà du PRD.
